@@ -4,7 +4,7 @@ let routes = [
     {
         path: '/',
         name: 'home',
-        component: () => import('@/components/HelloWorld.vue')
+        component: () => import('@/view/oneDay.vue')
     }
 ]
 
