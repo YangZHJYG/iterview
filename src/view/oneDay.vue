@@ -1,17 +1,17 @@
 <template>
     <div class="every-content">
         <div class="content">
-            <DeepCopy></DeepCopy>
+            <DeepCopy />
         </div>
         <div class="content">
-            <button>深拷贝</button>
+            <AntiShakeAndThrottle />
         </div>
     </div>
 </template>
 
 <script setup lang="ts">
 import DeepCopy from '@/components/deepCopy.vue'
-
+import AntiShakeAndThrottle from '@/components/AntiShakeAndThrottle.vue'
 
 </script>
 
