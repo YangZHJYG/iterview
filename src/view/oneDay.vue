@@ -13,7 +13,6 @@
 import DeepCopy from '@/components/deepCopy.vue'
 import AntiShakeAndThrottle from '@/components/AntiShakeAndThrottle.vue'
 
-
 </script>
 
 <style scoped lang="less">
